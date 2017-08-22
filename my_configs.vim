@@ -36,11 +36,6 @@ set background=light
 let g:solarized_termcolors=256  
 colorscheme solarized
 
-" NerdTree
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark 
-map <leader>nf :NERDTreeFind<cr>
-
 " Multiple Cursor
 " Default mapping
 let g:multi_cursor_next_key='<C-n>'

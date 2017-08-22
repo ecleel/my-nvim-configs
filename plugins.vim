@@ -3,6 +3,8 @@
 
 call plug#begin()
 
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'mileszs/ack.vim'
 Plug 'jiangmiao/auto-pairs'
@@ -11,11 +13,9 @@ Plug 'kien/ctrlp.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/goyo.vim'
-Plug 'scrooloose/nerdtree'
 Plug 'evanmiller/nginx-vim-syntax'
 Plug 'amix/open_file_under_cursor.vim'
 Plug 'aklt/plantuml-syntax'
-Plug 'rust-lang/rust.vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'scrooloose/snipmate-snippets'
